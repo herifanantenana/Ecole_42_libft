@@ -6,7 +6,7 @@
 #    By: arakotom <arakotom@student.42antananari    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/02/28 11:06:44 by arakotom          #+#    #+#              #
-#    Updated: 2024/08/02 23:58:33 by arakotom         ###   ########.fr        #
+#    Updated: 2024/08/03 00:08:39 by arakotom         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -71,7 +71,7 @@ BONUS_SRCS = ft_lstadd_back_bonus.c \
 	ft_lstsize_bonus.c
 
 OBJS = $(addprefix $(OBJ_DIR)/, $(SRCS:.c=.o))
-BONUS_OBJS = $(addprefix $(OBJ_DIR)/, $(SRCS:.c=.o))
+BONUS_OBJS = $(addprefix $(OBJ_DIR)/, $(BONUS_SRCS:.c=.o))
 
 RM = rm -rf
 
